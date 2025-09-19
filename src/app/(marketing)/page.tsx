@@ -1,5 +1,6 @@
 // app/page.tsx (Next.js 13 이상 App Router 기준)
 import Image from "next/image";
+import OutlineButton from "../components/common/OutlineButton";
 
 export default function Home() {
   return (
@@ -16,9 +17,7 @@ export default function Home() {
           <button className="px-6 py-3 rounded-full bg-pink-500 text-white font-semibold shadow-md hover:bg-pink-600 transition">
             커뮤니티 둘러보기
           </button>
-          <button className="px-6 py-3 rounded-full border border-pink-500 text-pink-500 font-semibold hover:bg-pink-50 transition">
-            회원가입하기
-          </button>
+          <OutlineButton />
         </div>
       </section>
 
