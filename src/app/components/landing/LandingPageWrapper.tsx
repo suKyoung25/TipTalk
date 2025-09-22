@@ -4,6 +4,7 @@ import Navigation from "@/app/components/landing/Navigation";
 import LandingHero from "@/app/components/landing/LandingHero";
 import LandingFeature from "@/app/components/landing/LandingFeature";
 import LandingNailColor from "./LandingNailColor";
+import LandingFooter from "./LandingFooter";
 
 export default function LandingPageWrapper() {
   return (
@@ -21,6 +22,7 @@ export default function LandingPageWrapper() {
       <LandingNailColor />
 
       {/* TODO: 푸터 만들기 */}
+      <LandingFooter />
     </main>
   );
 }
