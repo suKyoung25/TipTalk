@@ -10,29 +10,18 @@ export default function LandingFooter() {
   return (
     <motion.div
       variants={itemVariants}
-      className="py-20 px-6  border-t border-gray-200"
+      className="py-20 px-6 bg-gray-50 border-t border-gray-100"
     >
-      <div className="flex flex-col md:flex-row justify-between max-w-5xl mx-auto items-center space-y-4 md:space-y-0">
-        <div className="text-sm text-gray-500">
-          © 2024 네일라이프. All rights reserved.
-        </div>
+      <div className="flex text-gray-700 flex-col md:flex-row justify-between max-w-5xl mx-auto items-center space-y-4 md:space-y-0">
+        <div className="text-sm ">© 2025 TipTalk - All rights reserved</div>
         <div className="flex space-x-6 text-sm">
-          <a
-            href="#"
-            className="text-gray-500 hover:text-pink-600 transition-colors"
-          >
+          <a href="#" className=" hover:text-pink-600 transition-colors">
             개인정보처리방침
           </a>
-          <a
-            href="#"
-            className="text-gray-500 hover:text-pink-600 transition-colors"
-          >
+          <a href="#" className=" hover:text-pink-600 transition-colors">
             이용약관
           </a>
-          <a
-            href="#"
-            className="text-gray-500 hover:text-pink-600 transition-colors"
-          >
+          <a href="#" className=" hover:text-pink-600 transition-colors">
             쿠키 정책
           </a>
         </div>
