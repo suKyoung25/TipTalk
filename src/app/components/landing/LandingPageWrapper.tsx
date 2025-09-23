@@ -5,6 +5,7 @@ import LandingHero from "@/app/components/landing/LandingHero";
 import LandingFeature from "@/app/components/landing/LandingFeature";
 import LandingNailColor from "./LandingNailColor";
 import LandingFooter from "./LandingFooter";
+import LandingPopularNailArtGallery from "./LandingPopularNailArtGallery";
 
 export default function LandingPageWrapper() {
   return (
@@ -20,6 +21,9 @@ export default function LandingPageWrapper() {
 
       {/* 추천 컬러  TODO: AI로 자동 추천 되는 로직 해보고싶다 */}
       <LandingNailColor />
+
+      {/* 인기 네일아트 스타일 */}
+      <LandingPopularNailArtGallery />
 
       {/* TODO: 푸터 만들기 */}
       <LandingFooter />

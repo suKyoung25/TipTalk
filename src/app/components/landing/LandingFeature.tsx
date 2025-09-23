@@ -51,11 +51,11 @@ export default function LandingFeature() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: idx * 0.2 }}
+            transition={{ duration: 0, delay: 0 }}
             onClick={() => {
               router.push(f.link);
             }}
-            className="flex flex-col items-center p-6 rounded-xl shadow cursor-pointer bg-bg-cream-white"
+            className="flex flex-col items-center rounded-xl shadow p-6 bg-bg-white cursor-pointer"
           >
             <h3 className="mt-4 text-xl font-semibold">{f.title}</h3>
             <p className="mt-2 text-center text-text-medium">{f.desc}</p>
